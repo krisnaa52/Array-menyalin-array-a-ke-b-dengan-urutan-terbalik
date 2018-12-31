@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int i,n,B[5],A[5]={5,10,6,0,4};
+
+    for (n=0;n<5;n++){
+    printf("%d ",A[n]);}
+    printf("\n akan mengurutkan terballik isi arry A \n");
+    for (i=4;i>=0;i--){
+    printf("%d ",A[i]);}
+
+
+
+    return 0;
+}
